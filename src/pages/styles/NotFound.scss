@@ -1,0 +1,33 @@
+@import "../../scss/index.scss";
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 0;
+
+  h1 {
+    font-size: 70px;
+    color: $font-grey-light;
+  }
+
+  img {
+    width: 700px;
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: $media-breakpoint-lg) {
+  .not-found {
+    h1 {
+      font-size: 50px;
+    }
+
+    img {
+      width: 300px;
+      margin-bottom: 200px;
+    }
+  }
+}

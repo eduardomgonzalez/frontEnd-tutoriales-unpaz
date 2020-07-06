@@ -1,0 +1,71 @@
+@import "../../scss/index.scss";
+
+.tutorials-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+
+  // Styles Scroll
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #35383a;
+
+    // barra
+    &-thumb {
+      background-color: #ab1232;
+      border-radius: 4px;
+    }
+  }
+
+  .tutorials-title {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 60vh;
+    }
+  }
+
+  .btn-danger {
+    border: none;
+    color: white;
+    background: rgb(185, 30, 30);
+    padding: 10px;
+    font-weight: bold;
+    margin: 15px 0px;
+    transition: all 0.4s;
+    width: 150px;
+
+    &:hover {
+      color: white;
+      background: rgb(199, 70, 70);
+    }
+  }
+
+  .card {
+    border-radius: 5px;
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: $media-breakpoint-lg) {
+  .tutorials-list {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .tutorials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tutorials-message {
+    margin-left: 90px;
+  }
+  .card {
+    max-width: 18rem;
+  }
+}

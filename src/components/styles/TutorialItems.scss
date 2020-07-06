@@ -1,0 +1,44 @@
+@import "../../scss/index.scss";
+
+.tutorials-list {
+  text-align: center;
+  background-color: $background-dark-list;
+  height: 76.5vh;
+  overflow-y: scroll;
+
+  .btn-danger {
+    margin-top: 40px;
+  }
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-dark-list;
+    color: $font-grey-light;
+    font-weight: 400;
+    border: none;
+  }
+
+  a:hover {
+    color: $font-grey-dark;
+  }
+
+  .title {
+    margin-bottom: 30px;
+
+    h4 {
+      color: #bc1433 !important;
+      text-transform: uppercase;
+    }
+  }
+
+  .tutorials-message {
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .list-group {
+    border-radius: 0px;
+  }
+}

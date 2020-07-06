@@ -1,0 +1,12 @@
+@import "../../scss/index.scss";
+
+.tutorials {
+  color: white;
+}
+
+@media screen and (max-width: $media-breakpoint-lg) {
+  .tutorials {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}

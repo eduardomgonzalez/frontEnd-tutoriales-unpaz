@@ -1,0 +1,22 @@
+@import "../../scss/index.scss";
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  text-transform: uppercase;
+  .navbar-logo {
+    width: 150px;
+  }
+
+  .nav-link {
+    transition: all 0.25s;
+    margin: 0px 15px;
+
+    &:hover {
+      color: $primary-color-hover !important;
+    }
+  }
+}
