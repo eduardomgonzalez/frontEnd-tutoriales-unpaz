@@ -41,6 +41,8 @@ Se abre una pestaña del navegador en el puerto 3000:
 
 
 ## Estructura
-
+![estructura](https://user-images.githubusercontent.com/44064190/86627582-eff88100-bf9e-11ea-80a2-2bace0822773.png)
+![directorios](https://user-images.githubusercontent.com/44064190/86627599-f5ee6200-bf9e-11ea-9811-0c5e108e6f61.png)
 
 ## Link de la aplicación en producción:
+https://tutorial-front-end.vercel.app/
