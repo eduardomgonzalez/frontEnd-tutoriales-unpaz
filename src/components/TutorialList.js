@@ -21,6 +21,7 @@ class TutorialList extends Component {
       search,
       handleChangeSearch2,
     } = this.props;
+
     return (
       <div className="row tutorials-container">
         {/* Lista de Tutoriales */}

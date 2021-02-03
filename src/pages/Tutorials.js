@@ -34,9 +34,12 @@ class Tutorials extends Component {
   };
 
   /************************* Filtro desde el FRONTEND *********************/
-  /*  handleChangeSearch = async (e) => {
+
+  /* ARREGLARLO */
+  /*   handleChangeSearch = async (e) => {
     // Sin el await no funcionaba al 100 %
     await this.setState({ search: e.target.value });
+    console.log(this.state.search);
     this.searchFilter();
   };
 
@@ -49,13 +52,19 @@ class Tutorials extends Component {
         .includes(this.state.search.toLowerCase());
     });
 
-    this.setState({ copyTutorials: filterTutorials });
+    if (filterTutorials.length !== 0) {
+      this.setState({ copyTutorials: filterTutorials });
+    } else {
+      this.state({ copyTutorials: this.state.tutorials });
+    }
+    console.log(filterTutorials.length);
   }; */
 
   /****************** Filtro CON OTRO ENDPOINT dede el backend con Query Params ************/
   handleChangeSearch2 = async (e) => {
     // Sin el await no funcionaba al 100 %
     await this.setState({ search: e.target.value });
+    console.log(this.state.search);
     this.searchFilter2();
   };
 
